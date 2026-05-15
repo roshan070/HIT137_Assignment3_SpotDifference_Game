@@ -28,7 +28,7 @@
 
 ### 
 
-### \## Features
+## \## Features
 
 ### 
 
@@ -48,7 +48,7 @@
 
 ### 
 
-### \## Technologies Used
+## \## Technologies Used
 
 ### 
 
@@ -62,7 +62,7 @@
 
 ### 
 
-### \## Project Files
+## \## Project Files
 
 ### 
 
@@ -92,7 +92,7 @@
 
 ### 
 
-### \## How to Run
+## \## How to Run
 
 ### 
 
@@ -114,7 +114,7 @@
 
 ### 
 
-### \## Testing
+## \## Testing
 
 ### 
 
@@ -136,7 +136,7 @@
 
 ### 
 
-### \## Assignment Information
+## \## Assignment Information
 
 ### 
 
@@ -148,7 +148,7 @@
 
 ### 
 
-### \## GitHub Repository
+## \## GitHub Repository
 
 ### 
 
