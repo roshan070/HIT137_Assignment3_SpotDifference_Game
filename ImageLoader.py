@@ -5,7 +5,6 @@ class ImageLoader:
         
         raw = np.fromfile(path, dtype=np.uint8)
         image = cv2.imdecode(raw, cv2.IMREAD_UNCHANGED)
-
         if image is None:
             raise ValueError("The selected file could not be read as an image.")
 
