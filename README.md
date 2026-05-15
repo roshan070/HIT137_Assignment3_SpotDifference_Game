@@ -2,259 +2,157 @@
 
 # 
 
-# \## Group Members
+## \## Group Members
 
-# 
+### 
 
-# \* Nabin Rawal
+### \* Nabin Rawal
 
-# \* Roshan Thapa
+### \* Roshan Thapa
 
-# \* Amit Budha Chettri
+### \* Amit Budha Chettri
 
-# \* Sudicha Thapa
+### \* Sudicha Thapa
 
-# 
+### 
 
-# \---
+## \## Project Overview
 
-# 
+### 
 
-# \## Project Overview
+### This project is a Python-based Spot the Difference Game developed for HIT137 Assignment 3 at Charles Darwin University.
 
-# 
+### 
 
-# This project is a Python-based Spot the Difference Game developed for HIT137 Assignment 3 at Charles Darwin University.
+### The game generates visual differences between images and allows users to identify altered regions through interactive gameplay mechanics.
 
-# 
+### 
 
-# The game generates visual differences between images and allows users to identify altered regions through interactive gameplay mechanics.
+### \## Features
 
-# 
+### 
 
-# The project focuses on:
+### \* Spot the difference gameplay
 
-# 
+### \* Shape overlay differences
 
-# \* Object-oriented programming
+### \* Colour shift alterations
 
-# \* Image processing
+### \* Brightness alterations
 
-# \* Game logic implementation
+### \* Blur effects
 
-# \* Python class integration
+### \* Difference region tracking
 
-# \* Team collaboration using GitHub
+### \* Game round management
 
-# 
+### 
 
-# \---
+### \## Technologies Used
 
-# 
+### 
 
-# \## Features
+### \* Python 3
 
-# 
+### \* OpenCV
 
-# \* Spot the difference gameplay
+### \* NumPy
 
-# \* Multiple image alteration techniques
+### \* Git \& GitHub
 
-# \* Shape overlay differences
+### 
 
-# \* Colour shift alterations
+### \## Project Files
 
-# \* Brightness alterations
+### 
 
-# \* Blur effects
+### \* BrightnessAlteration.py
 
-# \* Difference region tracking
+### \* ColourShiftAlteration.py
 
-# \* Game round management
+### \* DifferenceGenerator.py
 
-# \* Image loading system
+### \* DifferenceRegion.py
 
-# 
+### \* GameRound.py
 
-# \---
+### \* ImageLoader.py
 
-# 
+### \* alteration.py
 
-# \## Technologies Used
+### \* bluralteration.py
 
-# 
+### \* imagepanel.py
 
-# \* Python 3
+### \* shapeoverlay.py
 
-# \* OpenCV
+### \* spotdifference.py
 
-# \* NumPy
+### \* spot\_difference\_combine.py
 
-# \* Git \& GitHub
+### 
 
-# 
+### \## How to Run
 
-# \---
+### 
 
-# 
+### Clone repository:
 
-# \## Project Structure
+### git clone https://github.com/roshan070/HIT137\_Assignment3\_SpotDifference\_Game.git
 
-# 
+### 
 
-# ```text id="n3l61z"
+### Open project folder:
 
-# BrightnessAlteration.py
+### cd HIT137\_Assignment3\_SpotDifference\_Game
 
-# ColourShiftAlteration.py
+### 
 
-# DifferenceGenerator.py
+### Run the game:
 
-# DifferenceRegion.py
+### python spotdifference.py
 
-# GameRound.py
+### 
 
-# ImageLoader.py
+### \## Testing
 
-# alteration.py
+### 
 
-# bluralteration.py
+### The following functionalities were tested successfully:
 
-# imagepanel.py
+### 
 
-# shapeoverlay.py
+### \* Image loading
 
-# spotdifference.py
+### \* Difference generation
 
-# ```
+### \* Alteration rendering
 
-# 
+### \* Gameplay mechanics
 
-# \---
+### \* Difference region handling
 
-# 
+### \* Game round flow
 
-# \## How to Run
+### 
 
-# 
+### \## Assignment Information
 
-# 1\. Clone repository
+### 
 
-# 
+### Unit: HIT137 – Software Now
 
-# ```bash id="s8nlj3"
+### Institution: Charles Darwin University
 
-# git clone https://github.com/roshan070/HIT137\_Assignment3\_SpotDifference\_Game.git
+### Assignment: Assignment 3
 
-# ```
+### 
 
-# 
+### \## GitHub Repository
 
-# 2\. Open project folder
+### 
 
-# 
+### https://github.com/roshan070/HIT137\_Assignment3\_SpotDifference\_Game
 
-# ```bash id="p8sz9u"
-
-# cd HIT137\_Assignment3\_SpotDifference\_Game
-
-# ```
-
-# 
-
-# 3\. Run the game
-
-# 
-
-# ```bash id="7fgnq4"
-
-# python spotdifference.py
-
-# ```
-
-# 
-
-# \---
-
-# 
-
-# \## GitHub Workflow
-
-# 
-
-# This project was collaboratively developed using GitHub branches, commits, merges, and pull requests.
-
-# 
-
-# Each team member contributed through:
-
-# 
-
-# \* Feature development
-
-# \* Bug fixing
-
-# \* Class implementation
-
-# \* File integration
-
-# \* Repository management
-
-# 
-
-# \---
-
-# 
-
-# \## Testing
-
-# 
-
-# The following functionalities were tested successfully:
-
-# 
-
-# \* Image loading
-
-# \* Difference generation
-
-# \* Alteration rendering
-
-# \* Gameplay mechanics
-
-# \* Difference region handling
-
-# \* Game round flow
-
-# 
-
-# \---
-
-# 
-
-# \## Assignment Information
-
-# 
-
-# Unit: HIT137 – Software Now
-
-# Institution: Charles Darwin University
-
-# Assignment: Assignment 3
-
-# 
-
-# \---
-
-# 
-
-# \## GitHub Repository
-
-# 
-
-# Repository Link:
-
-# https://github.com/roshan070/HIT137\_Assignment3\_SpotDifference\_Game
-
-
+### 
 
