@@ -88,6 +88,7 @@ class ImageLoader:
     @staticmethod
     def load_bgr(path: str) -> np.ndarray:
         
+<<<<<<< HEAD
         raw = np.fromfile(path, dtype=np.uint8)
         image = cv2.imdecode(raw, cv2.IMREAD_UNCHANGED)
 
@@ -131,6 +132,8 @@ class Alteration(ABC):
         return image[region.y : region.y + region.height, region.x : region.x + region.width]
 
 
+=======
+>>>>>>> 98312a966a17141bab94cbb244585aca929d7cbd
 class ColourShiftAlteration(Alteration):
     
     name = "Colour shift"
@@ -151,6 +154,7 @@ class ColourShiftAlteration(Alteration):
         shifted = cv2.cvtColor(hsv_int.astype(np.uint8), cv2.COLOR_HSV2BGR)
         image[region.y : region.y + region.height, region.x : region.x + region.width] = shifted
 
+<<<<<<< HEAD
 
 class BlurAlteration(Alteration):
    
@@ -175,6 +179,8 @@ class BrightnessAlteration(Alteration):
         image[region.y : region.y + region.height, region.x : region.x + region.width] = adjusted #mine
 
 
+=======
+>>>>>>> 98312a966a17141bab94cbb244585aca929d7cbd
 class ShapeOverlayAlteration(Alteration):
     name = "Subtle shape"
     def apply(self, image: np.ndarray, region: DifferenceRegion, rng: random.Random) -> None:
